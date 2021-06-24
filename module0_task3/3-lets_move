@@ -1,2 +1,3 @@
 #!/bin/bash
+mkdir -p /tmp/u
 mv [A-Z]* /tmp/u
