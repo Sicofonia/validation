@@ -1,5 +1,7 @@
 #!/bin/bash
 mkdir -p /tmp/u
-rm wtf
-touch /tmp/u/test2
+rm Holberton
+rm School
+touch /tmp/u/Holberton
+touch /tmp/u/School
 #mv [A-Z]* /tmp/u
