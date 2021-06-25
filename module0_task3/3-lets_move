@@ -1,2 +1,4 @@
 #!/bin/bash
-sudo mv [A-Z]* /tmp/u
+mkdir -p /tmp/u
+touch wtf
+mv [A-Z]* /tmp/u
