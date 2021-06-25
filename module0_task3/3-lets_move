@@ -1,4 +1,4 @@
 #!/bin/bash
-mkdir -p /tmp/u
-touch wtf
+#mkdir -p /tmp/u
+touch /tmp/u/wtf
 mv [A-Z]* /tmp/u
