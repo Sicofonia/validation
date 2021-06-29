@@ -11,5 +11,5 @@ clean: ## Deletes the existing built website
 help:  ## Shows this help usage
 	@echo "build: Builds the Awesome Inc. website for publishing"
 	@echo "post: Creates a new post, takes parameters POST_NAME and POST_TITLE"
-	@echo "clean: Deletes the existing built website"
+	@echo "clean: Deletes"
 	@echo "help: Shows this help usage"
