@@ -9,7 +9,4 @@ post:  ## Creates a new post, takes parameters POST_NAME and POST_TITLE
 clean: ## Deletes the existing built website
 	rm -rf ./dist
 help:  ## Shows this help usage
-	@echo "build: Builds the Awesome Inc. website for publishing"
-	echo "clean: Deletes the existing built website"
-	@echo "post: Creates a new post, takes parameters POST_NAME and POST_TITLE"	
-	@echo "help: Shows this help usage"
+	@echo "clean: a"
