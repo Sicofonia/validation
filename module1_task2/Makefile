@@ -9,6 +9,5 @@ post:  ## Creates a new post, takes parameters POST_NAME and POST_TITLE
 clean: ## Deletes the existing built website
 	rm -rf ./dist
 help:  ## Shows this help usage
-	@echo "build: b"
-	@echo "clean: c"
-	
+	echo "build: b"
+	echo "clean: c"
