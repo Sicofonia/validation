@@ -10,3 +10,4 @@ clean: ## Deletes the existing built website
 	rm -rf ./dist
 help:  ## Shows this help usage
 	@echo "clean: a"
+	@echo "build: b"
