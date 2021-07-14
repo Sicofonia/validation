@@ -16,3 +16,4 @@ help: ## Want to know more?
 	@echo "stop: to stop the app"
 	@echo "clean: clean the build"
 	@echo "test: to test the app"
+	
