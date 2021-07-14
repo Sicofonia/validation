@@ -1,5 +1,5 @@
-module github.com/sicofonia/validation/module2_task0
+module github.com/Sicofonia/awesome-api
 
 go 1.13
 
-require github.com/gorilla/mux v1.8.0
+require github.com/gorilla/mux v1.8.0 // indirect
