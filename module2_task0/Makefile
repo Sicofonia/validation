@@ -1,15 +1,15 @@
-build:
+build: ## Builds awesome-api
 	go build -o awesome-api main.go
-run:
+run: ## Executes awesome-api
 	./awesome-api > ./awesome.log 2>&1 &
-stop:
+stop: ## Stops awesome-api
 	pgrep awesome-api | xargs kill
-clean:
+clean: ## Cleans awesome-api
 	rm -f awesome*
-test:
+test: ## Tests awesome-api
 	curl http://0.0.0.0:9999
 	curl http://0.0.0.0:9999/health
-help:
+help: ## Want to know more?
 	@echo "help: to know whats going on"
 	@echo "build: to compile the app"
 	@echo "run: to run the app"
