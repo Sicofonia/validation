@@ -16,9 +16,9 @@ unit-tests:
 help: ## Want to know more?
 	@echo "help: to know whats going on"
 	@echo "build: to compile the app"
+	@echo "clean: clean the build"
 	@echo "run: to run the app"
 	@echo "stop: to stop the app"
-	@echo "clean: clean the build"
 	@echo "test: to test the app"
 	@echo "lint: static analysis for the code"
 	
