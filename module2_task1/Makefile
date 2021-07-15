@@ -10,7 +10,7 @@ test: ## Tests awesome-api
 	curl http://0.0.0.0:9999
 	curl http://0.0.0.0:9999/health
 lint: ## Lint code
-	/home/osboxes/go/bin/golangci-lint run -v
+	golangci-lint run
 help: ## Want to know more?
 	@echo "help: to know whats going on"
 	@echo "build: to compile the app"
