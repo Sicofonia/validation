@@ -5,6 +5,7 @@ build: ## Builds the Awesome Inc. website for publishing
 check:
 	markdownlint ./content/posts/welcome.md
 	markdown-link-check ./content/posts/welcome.md
+validate: check ## Just a comment
 post:  ## Creates a new post, takes parameters POST_NAME and POST_TITLE
 	grep -rl "ChangeMe" archetypes/ | xargs sed -i 's/ChangeMe/$(TITLE)/g'
 	hugo new posts/${POST_NAME}.md
